@@ -1,0 +1,14 @@
+{
+    "root": "dist/",
+    "clean_urls": true,
+    "https_only": true,
+    "error_page": "error.html",
+    "routes": {
+        "/**": "index.html"
+    },
+    "headers": {
+        "/**": {
+            "Access-Control-Allow-Origin": "*"
+        }
+    }
+}
