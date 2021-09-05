@@ -212,7 +212,7 @@
       </div>
     </div>
   </nav>  
-  <div class="page-header header-filter" data-parallax="true" style="background-image: url(&quot;assets/img/profile_city.jpg&quot;); transform: translate3d(0px, 0px, 0px);">
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url(&quot;assets/img/austin.jpg&quot;); transform: translate3d(0px, 0px, 0px);">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -447,28 +447,28 @@
           <div class="col-md-8 ml-auto mr-auto">
             <h2 class="text-center title">Join us!</h2>
             <h4 class="text-center description">Make Austin homely. Start some friendly communities.      Create something incredible.</h4>
-            <form class="contact-form">
+            <form class="contact-form" method="post" action="contact.php">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group bmd-form-group">
                     <label class="bmd-label-floating">Your Name</label>
-                    <input type="email" class="form-control">
+                    <input type="name" name="Name" class="form-control">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group bmd-form-group">
                     <label class="bmd-label-floating">Your Email</label>
-                    <input type="email" class="form-control">
+                    <input type="email" name="Email" class="form-control">
                   </div>
                 </div>
               </div>
               <div class="form-group bmd-form-group">
                 <label for="exampleMessage" class="bmd-label-floating">Your Message</label>
-                <textarea type="email" class="form-control" rows="4" id="exampleMessage"></textarea>
+                <textarea type="email" name="Message" class="form-control" rows="4" id="exampleMessage"></textarea>
               </div>
               <div class="row">
                 <div class="col-md-4 ml-auto mr-auto text-center">
-                  <button class="btn btn-primary btn-raised">
+                  <button type="submit" class="btn btn-primary btn-raised">
                     Send Message
                   </button>
                 </div>
